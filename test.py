@@ -11,6 +11,10 @@ from challenge import snake_game as sg
 
 
 class Test_Challenge(unittest.TestCase):
+    
+    
+    #Verificamos el resultado para los 3 tests detallados en el enunciado del desafio.
+    
     def test_1(self):
         board = [4, 3]
         snake = sg.Snake([[2,2], [3,2], [3,1], [3,0], [2,0], [1,0], [0,0]])
